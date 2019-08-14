@@ -1,0 +1,43 @@
+{
+    "name": "placidapp/placid-laravel",
+    "description": "Placid.app Laravel Integration",
+    "keywords": [
+        "placid",
+        "laravel",
+        "images"
+    ],
+    "homepage": "https://github.com/placidapp/placid-laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Armin Ulrich",
+            "email": "armin@nifty.at",
+            "homepage": "https://placid.app",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "placidapp/placid-php": "^1.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Placid\\Laravel\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Placid\\Laravel\\PlacidLaravelServiceProvider"
+            ],
+            "aliases": {
+                "Placid": "Placid\\Laravel\\PlacidFacade"
+            }
+        }
+    }
+}
