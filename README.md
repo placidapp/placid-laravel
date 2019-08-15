@@ -23,11 +23,13 @@ $imageURL = $template->toPlacidUrl(); // - https://placid.app/u/qsraj?title=I%20
 ## Generate an Image:
 
 Using the `image()` function on the  Template Object will result in returning a [GeneratedImage Object](https://github.com/placidapp/placid-php/blob/master/src/GeneratedImage.php)
+When the image has been created, the (in your config) supplied webhook will be called!
+
 ```php
  $image = $template->image();
 ```
 
-
+`image(true)` will wait for the image to being finished: 
 ```php
  $image = $template->image(true); // - https://placid.app/u/qsraj?title=I%20am%20a%20dynamic%20Image%21
 ```
