@@ -17,7 +17,7 @@ $template
 $imageURL = $template->toPlacidUrl(); // - https://placid.app/u/qsraj?title=I%20am%20a%20dynamic%20Image%21
 
 ```
-[![Latest Version](https://placid.app/u/qsraj?title=I%20am%20a%20dynamic%20Image%21)](https://placid.app/u/qsraj?title=I%20am%20a%20dynamic%20Image%21)
+[![Placid Image](https://placid.app/u/qsraj?title=I%20am%20a%20dynamic%20Image%21)](https://placid.app/u/qsraj?title=I%20am%20a%20dynamic%20Image%21)
 
 
 ## Generate an Image:
