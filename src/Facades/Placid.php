@@ -1,10 +1,16 @@
 <?php
 
-namespace Placid\Laravel;
+namespace Placid\Laravel\Facades;
 
 use Illuminate\Support\Facades\Facade;
+use Placid\Template;
 
-class PlacidFacade extends Facade
+/**
+ * @method static Template template(string $template_uuid)
+ *
+ * @see \Illuminate\Log\Logger
+ */
+class Placid extends Facade
 {
     /**
      * Get the registered name of the component.
