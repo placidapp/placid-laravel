@@ -2,7 +2,7 @@
 [![Latest Version](https://img.shields.io/github/release/placidapp/placid-laravel.svg?style=flat-square)](https://github.com/placidapp/placid-laravel/releases)
 [![Total Downloads](https://img.shields.io/packagist/dt/placidapp/placid-laravel.svg?style=flat-square)](https://packagist.org/packages/placidapp/placid-laravel)
 
-This packages enables you to simply create Placid Images from Templates via using the REST Api or to easily create valid placid.app embed links!
+This package enables you to create Images from Placid Templates via the REST API or to create placid.app embed links!
 
 ## Create an Placid.app Image URL:
 ```php
