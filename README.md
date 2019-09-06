@@ -4,7 +4,7 @@
 [![Latest Version](https://img.shields.io/github/release/placidapp/placid-laravel.svg?style=flat-square)](https://github.com/placidapp/placid-laravel/releases)
 [![Total Downloads](https://img.shields.io/packagist/dt/placidapp/placid-laravel.svg?style=flat-square)](https://packagist.org/packages/placidapp/placid-laravel)
 
-This package enables you to automatically create images from [Placid](https://placid.app) templates. You can use the REST API or to create placid.app embed links with your variables to dynamically set the image content.
+This package enables you to automatically create images from [Placid](https://placid.app) templates. You can use the REST API or the URL API to create placid.app embed links with your variables to dynamically set the image content.
 
 ## About Placid
 To use this package, you will need a [Placid](https://placid.app) account, where you can add, design and edit image templates.
