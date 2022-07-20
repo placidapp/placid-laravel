@@ -98,7 +98,7 @@ $template
 You can install this package via composer using this command:
 
 ```bash
-composer require "placidapp/placid-laravel:^1.0.0"
+composer require placidapp/placid-laravel
 ```
 
 The package will automatically register itself.
