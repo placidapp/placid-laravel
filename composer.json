@@ -18,7 +18,7 @@
     ],
     "require": {
         "php": "^7.4|^8.0",
-        "placidapp/placid-php": "^1.0"
+        "placidapp/placid-php": "^1.0.1"
     },
     "require-dev": {
     },
